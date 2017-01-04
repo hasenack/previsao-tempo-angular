@@ -9,19 +9,7 @@ body{
 	background: #135ea4;
 }
 
-nav ul li{
-	display: inline-block;
-	list-style: none;
-	padding: 20px;
-}
 
-nav ul li a{
-	color: white;
-}
-
-nav ul li a:hover{
-	color: #f8ce3d;
-}
 
 .data-prev{
 	color: white;
@@ -29,6 +17,11 @@ nav ul li a:hover{
 	
 .conteudo h1{
 	color: #f8ce3d;
+}
+
+ul.dados-tempo {
+	padding: 0;
+	margin: 30px 0;
 }
 
 ul.dados-tempo li{
@@ -67,3 +60,97 @@ ul.dados-tempo li span{
 .previsao-semana li.previsao-semana-dia{
 	color: #f8ce3d;
 }
+
+
+section.footer{
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 10%;
+}
+
+
+section.footer a{
+	color: white;
+}
+
+/* ESTILO DO MENU */
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0b2e4f;
+
+
+}
+
+.col-md-6{
+	padding: 0;
+}
+
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+
+ul.topnav li a:hover { color: #f8ce3d;}
+ul.topnav li.icon {display: none;}
+
+
+
+/* BREAKPOINTS*/
+@media screen and (max-width:680px) {
+	ul.topnav {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 9999;
+		border-bottom: 4px solid #f8ce3d;
+	}
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+  ul.topnav.responsive {position: fixed;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+  section.conteudo{
+  	margin-top: 80px;
+  	text-align: center ;
+  }
+}
+
+
+
