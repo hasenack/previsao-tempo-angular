@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|PT+Sans+Narrow:400,700');
+
+*{
+	font-family: 'Oswald', sans-serif;
+}
+
+body{
+	padding: 0; margin: 0;
+	background: #135ea4;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color: #f8ce3d;
+}
+
+.data-prev{
+	color: white;
+}
+	
+.conteudo h1{
+	color: #f8ce3d;
+}
+
+ul.dados-tempo li{
+	list-style: none;
+	color: white;
+}
+
+ul.dados-tempo li span{
+	color: #f8ce3d;
+}
+
+
+.previsao-semana-item{
+	border: 4px solid #135ea4;
+	background: rgba(255,255,255,0.2);
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.previsao-semana-item:hover{
+	background: #0b2e4f;
+	cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;	
+}
+
+.previsao-semana li{
+	list-style: none;
+	color: white;
+}
+
+.previsao-semana li span,
+.previsao-semana li.previsao-semana-dia{
+	color: #f8ce3d;
+}
